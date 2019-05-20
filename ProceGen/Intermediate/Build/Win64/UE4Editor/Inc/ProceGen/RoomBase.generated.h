@@ -23,7 +23,7 @@ struct FHitResult;
 
 template<> PROCEGEN_API UScriptStruct* StaticStruct<struct FAABB>();
 
-#define ProceGen_Source_ProceGen_RoomBase_h_23_RPC_WRAPPERS \
+#define ProceGen_Source_ProceGen_RoomBase_h_30_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnEndOverlap) \
 	{ \
@@ -52,7 +52,7 @@ template<> PROCEGEN_API UScriptStruct* StaticStruct<struct FAABB>();
 	}
 
 
-#define ProceGen_Source_ProceGen_RoomBase_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ProceGen_Source_ProceGen_RoomBase_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnEndOverlap) \
 	{ \
@@ -81,7 +81,7 @@ template<> PROCEGEN_API UScriptStruct* StaticStruct<struct FAABB>();
 	}
 
 
-#define ProceGen_Source_ProceGen_RoomBase_h_23_INCLASS_NO_PURE_DECLS \
+#define ProceGen_Source_ProceGen_RoomBase_h_30_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARoomBase(); \
 	friend struct Z_Construct_UClass_ARoomBase_Statics; \
@@ -90,7 +90,7 @@ public: \
 	DECLARE_SERIALIZER(ARoomBase)
 
 
-#define ProceGen_Source_ProceGen_RoomBase_h_23_INCLASS \
+#define ProceGen_Source_ProceGen_RoomBase_h_30_INCLASS \
 private: \
 	static void StaticRegisterNativesARoomBase(); \
 	friend struct Z_Construct_UClass_ARoomBase_Statics; \
@@ -99,7 +99,7 @@ public: \
 	DECLARE_SERIALIZER(ARoomBase)
 
 
-#define ProceGen_Source_ProceGen_RoomBase_h_23_STANDARD_CONSTRUCTORS \
+#define ProceGen_Source_ProceGen_RoomBase_h_30_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ARoomBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARoomBase) \
@@ -112,7 +112,7 @@ private: \
 public:
 
 
-#define ProceGen_Source_ProceGen_RoomBase_h_23_ENHANCED_CONSTRUCTORS \
+#define ProceGen_Source_ProceGen_RoomBase_h_30_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ARoomBase(ARoomBase&&); \
@@ -123,34 +123,35 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARoomBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ARoomBase)
 
 
-#define ProceGen_Source_ProceGen_RoomBase_h_23_PRIVATE_PROPERTY_OFFSET \
+#define ProceGen_Source_ProceGen_RoomBase_h_30_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__id() { return STRUCT_OFFSET(ARoomBase, id); } \
 	FORCEINLINE static uint32 __PPO__worldPosition() { return STRUCT_OFFSET(ARoomBase, worldPosition); } \
 	FORCEINLINE static uint32 __PPO__m_AABB() { return STRUCT_OFFSET(ARoomBase, m_AABB); } \
+	FORCEINLINE static uint32 __PPO__RoomEnum() { return STRUCT_OFFSET(ARoomBase, RoomEnum); } \
 	FORCEINLINE static uint32 __PPO__inOverlapListNum() { return STRUCT_OFFSET(ARoomBase, inOverlapListNum); } \
 	FORCEINLINE static uint32 __PPO__otherRooms() { return STRUCT_OFFSET(ARoomBase, otherRooms); } \
 	FORCEINLINE static uint32 __PPO__bCanTick() { return STRUCT_OFFSET(ARoomBase, bCanTick); }
 
 
-#define ProceGen_Source_ProceGen_RoomBase_h_20_PROLOG
-#define ProceGen_Source_ProceGen_RoomBase_h_23_GENERATED_BODY_LEGACY \
+#define ProceGen_Source_ProceGen_RoomBase_h_27_PROLOG
+#define ProceGen_Source_ProceGen_RoomBase_h_30_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProceGen_Source_ProceGen_RoomBase_h_23_PRIVATE_PROPERTY_OFFSET \
-	ProceGen_Source_ProceGen_RoomBase_h_23_RPC_WRAPPERS \
-	ProceGen_Source_ProceGen_RoomBase_h_23_INCLASS \
-	ProceGen_Source_ProceGen_RoomBase_h_23_STANDARD_CONSTRUCTORS \
+	ProceGen_Source_ProceGen_RoomBase_h_30_PRIVATE_PROPERTY_OFFSET \
+	ProceGen_Source_ProceGen_RoomBase_h_30_RPC_WRAPPERS \
+	ProceGen_Source_ProceGen_RoomBase_h_30_INCLASS \
+	ProceGen_Source_ProceGen_RoomBase_h_30_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ProceGen_Source_ProceGen_RoomBase_h_23_GENERATED_BODY \
+#define ProceGen_Source_ProceGen_RoomBase_h_30_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProceGen_Source_ProceGen_RoomBase_h_23_PRIVATE_PROPERTY_OFFSET \
-	ProceGen_Source_ProceGen_RoomBase_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	ProceGen_Source_ProceGen_RoomBase_h_23_INCLASS_NO_PURE_DECLS \
-	ProceGen_Source_ProceGen_RoomBase_h_23_ENHANCED_CONSTRUCTORS \
+	ProceGen_Source_ProceGen_RoomBase_h_30_PRIVATE_PROPERTY_OFFSET \
+	ProceGen_Source_ProceGen_RoomBase_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProceGen_Source_ProceGen_RoomBase_h_30_INCLASS_NO_PURE_DECLS \
+	ProceGen_Source_ProceGen_RoomBase_h_30_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -160,5 +161,13 @@ template<> PROCEGEN_API UClass* StaticClass<class ARoomBase>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID ProceGen_Source_ProceGen_RoomBase_h
 
+
+#define FOREACH_ENUM_EROOMENUM(op) \
+	op(ERoomEnum::RE_NULL) \
+	op(ERoomEnum::RE_MAIN) \
+	op(ERoomEnum::RE_HALLWAY) 
+
+enum class ERoomEnum : uint8;
+template<> PROCEGEN_API UEnum* StaticEnum<ERoomEnum>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

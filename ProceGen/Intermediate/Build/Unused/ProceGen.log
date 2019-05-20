@@ -1,18 +1,18 @@
-﻿  Creating makefile for ProceGenEditor (ini files are newer than makefile)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\u1218984\Documents\GitHub\ProcedualGenerator).
+  Creating makefile for ProceGenEditor (ini files are newer than makefile)
   Parsing headers for ProceGenEditor
-    Running UnrealHeaderTool "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\ProceGen.uproject" "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\ProceGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ProceGenEditor in 7.6677027 seconds
+    Running UnrealHeaderTool "C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\ProceGen.uproject" "C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\ProceGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ProceGenEditor in 16.144854 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 8 processes...
-    [1/8] ProceGen.init.gen.cpp
-    [2/8] MapGeneartor.cpp
-    [3/8] MapGeneartor.gen.cpp
-    [4/8] RoomBase.gen.cpp
-    [5/8] RoomBase.cpp
-    [6/8] UE4Editor-ProceGen-0012.lib
-       Creating library C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0012.lib and object C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0012.exp
-    [7/8] UE4Editor-ProceGen-0012.dll
-       Creating library C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0012.suppressed.lib and object C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0012.suppressed.exp
-    [8/8] ProceGenEditor.target
-  Total time in Parallel executor: 2.82 seconds
-  Total execution time: 13.05 seconds
+  Building 7 actions with 8 processes...
+    [1/7] ProceGen.init.gen.cpp
+    [2/7] MapGeneartor.cpp
+    [3/7] MapGeneartor.gen.cpp
+    [4/7] RoomBase.cpp
+    [5/7] UE4Editor-ProceGen-0039.lib
+       Creating library C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0039.lib and object C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0039.exp
+    [6/7] UE4Editor-ProceGen-0039.dll
+       Creating library C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0039.suppressed.lib and object C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0039.suppressed.exp
+    [7/7] ProceGenEditor.target
+  Total time in Parallel executor: 2.75 seconds
+  Total execution time: 22.24 seconds

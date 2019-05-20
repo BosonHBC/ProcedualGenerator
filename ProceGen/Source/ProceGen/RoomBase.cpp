@@ -6,6 +6,7 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
 #include "Engine/Engine.h"
+#include "Materials/MaterialInstanceDynamic.h"
 #include "MapGeneartor.h"
 
 #define TILE_SIZE 4
@@ -15,7 +16,7 @@ ARoomBase::ARoomBase()
 	// Set mesh
 	staticMesh = CreateDefaultSubobject<UStaticMeshComponent>("StaticMesh");
 	if (staticMesh) {
-		staticMesh->SetupAttachment(RootComponent);
+		SetRootComponent(staticMesh);
 
 		// Visual
 		static ConstructorHelpers::FObjectFinder<UStaticMesh> myMesh(TEXT("/Game/Geometry/Meshes/1M_Cube"));
@@ -32,12 +33,13 @@ ARoomBase::ARoomBase()
 		staticMesh->SetCanEverAffectNavigation(false);
 		staticMesh->OnComponentBeginOverlap.AddDynamic(this, &ARoomBase::OnBeginOverlap);
 		staticMesh->OnComponentEndOverlap.AddDynamic(this, &ARoomBase::OnEndOverlap);
+
 	}
 	ShiftingSpeed = 1;
 	inOverlapListNum = 0;
 	bCanTick = true;
 	PrimaryActorTick.bCanEverTick = bCanTick;
-
+	RoomEnum = ERoomEnum::RE_NULL;
 }
 // Called when the game starts or when spawned
 void ARoomBase::BeginPlay()
@@ -98,7 +100,7 @@ void ARoomBase::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor*
 		// Push the Room into the list if it is a room
 		if (castedRoom && castedRoom->GetClass() == ARoomBase::StaticClass()) {
 			otherRooms.AddUnique(castedRoom);
-			inOverlapListNum ++;
+			inOverlapListNum++;
 		}
 	}
 }
@@ -139,6 +141,30 @@ void ARoomBase::MoveActorsToProperLocation() {
 		worldPosition = FVector2D(RoundedRelativeLocation.X, RoundedRelativeLocation.Y);
 	}
 
+}
+
+void ARoomBase::SetAsMainRoom(UMaterial* dynamicInst) {
+
+	if (RoomEnum != ERoomEnum::RE_MAIN) {
+		RoomEnum = ERoomEnum::RE_MAIN;
+		// Visual
+		if (dynamicInst != nullptr)
+			staticMesh->SetMaterial(0, UMaterialInstanceDynamic::Create(dynamicInst, staticMesh));
+		else
+			UE_LOG(LogTemp, Error, TEXT("Can not pass the Umatierl pointer"));
+
+	}
+}
+bool ARoomBase::IsIn2DArea(FVector2D inVec) {
+	bool bInArea = true;
+
+	if (worldPosition.X > inVec.X || worldPosition.X < -inVec.X || worldPosition.Y > inVec.Y || worldPosition.Y < -inVec.Y)
+		bInArea = false;
+	return bInArea;
+}
+void ARoomBase::SetMeshVisibility(bool bNewVisibility) {
+	if (staticMesh)
+		staticMesh->SetVisibility(bNewVisibility, true);
 }
 
 

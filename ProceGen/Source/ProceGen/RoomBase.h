@@ -16,6 +16,13 @@ struct FAABB {
 	FVector2D Extend;
 };
 
+UENUM(BlueprintType)	
+enum class ERoomEnum : uint8
+{
+	RE_NULL 			UMETA(DisplayName = "Empty"),
+	RE_MAIN 			UMETA(DisplayName = "Main Room"),
+	RE_HALLWAY		UMETA(DisplayName = "Hallway")
+};
 
 UCLASS()
 class PROCEGEN_API ARoomBase : public AActor
@@ -41,7 +48,11 @@ public:
 	UFUNCTION() 	
 	void OnEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	
+	FORCEINLINE bool IsFinishSeperating() const { return otherRooms.Num() == 0; }
+	FORCEINLINE float GetAreaOfRoom()const { return m_AABB.Extend.X * m_AABB.Extend.Y * 4; }
+	bool IsIn2DArea(FVector2D inVec);
+	void SetAsMainRoom(class UMaterial* dynamicInst);
+	void SetMeshVisibility(bool bNewVisibility);
 
 protected:
 	// Called when the game starts or when spawned
@@ -59,6 +70,8 @@ private:
 	/**Self defined Bounding Box of my Room base**/
 	UPROPERTY()
 		FAABB m_AABB;
+	UPROPERTY(EditAnywhere, Category = "Room")
+		ERoomEnum RoomEnum;
 
 	/** Shifting Speed for a room when it is collided, it should be the multiple of TILE_SIZE **/
 	int32 ShiftingSpeed;

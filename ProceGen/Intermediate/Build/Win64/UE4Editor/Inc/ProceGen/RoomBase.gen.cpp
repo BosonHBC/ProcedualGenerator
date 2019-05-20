@@ -13,8 +13,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeRoomBase() {}
 // Cross Module References
-	PROCEGEN_API UScriptStruct* Z_Construct_UScriptStruct_FAABB();
+	PROCEGEN_API UEnum* Z_Construct_UEnum_ProceGen_ERoomEnum();
 	UPackage* Z_Construct_UPackage__Script_ProceGen();
+	PROCEGEN_API UScriptStruct* Z_Construct_UScriptStruct_FAABB();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 	PROCEGEN_API UClass* Z_Construct_UClass_ARoomBase_NoRegister();
 	PROCEGEN_API UClass* Z_Construct_UClass_ARoomBase();
@@ -26,6 +27,61 @@ void EmptyLinkFunctionForGeneratedCodeRoomBase() {}
 	PROCEGEN_API UFunction* Z_Construct_UFunction_ARoomBase_OnEndOverlap();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	static UEnum* ERoomEnum_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_ProceGen_ERoomEnum, Z_Construct_UPackage__Script_ProceGen(), TEXT("ERoomEnum"));
+		}
+		return Singleton;
+	}
+	template<> PROCEGEN_API UEnum* StaticEnum<ERoomEnum>()
+	{
+		return ERoomEnum_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ERoomEnum(ERoomEnum_StaticEnum, TEXT("/Script/ProceGen"), TEXT("ERoomEnum"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_ProceGen_ERoomEnum_Hash() { return 1014646486U; }
+	UEnum* Z_Construct_UEnum_ProceGen_ERoomEnum()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_ProceGen();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ERoomEnum"), 0, Get_Z_Construct_UEnum_ProceGen_ERoomEnum_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "ERoomEnum::RE_NULL", (int64)ERoomEnum::RE_NULL },
+				{ "ERoomEnum::RE_MAIN", (int64)ERoomEnum::RE_MAIN },
+				{ "ERoomEnum::RE_HALLWAY", (int64)ERoomEnum::RE_HALLWAY },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "ModuleRelativePath", "RoomBase.h" },
+				{ "RE_HALLWAY.DisplayName", "Hallway" },
+				{ "RE_MAIN.DisplayName", "Main Room" },
+				{ "RE_NULL.DisplayName", "Empty" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_ProceGen,
+				nullptr,
+				"ERoomEnum",
+				"ERoomEnum",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 class UScriptStruct* FAABB::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
@@ -295,6 +351,11 @@ static struct FScriptStruct_ProceGen_StaticRegisterNativesFAABB
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_inOverlapListNum;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RoomEnum_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_RoomEnum;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_RoomEnum_Underlying;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_AABB_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_AABB;
@@ -356,6 +417,14 @@ static struct FScriptStruct_ProceGen_StaticRegisterNativesFAABB
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ARoomBase_Statics::NewProp_inOverlapListNum = { "inOverlapListNum", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARoomBase, inOverlapListNum), METADATA_PARAMS(Z_Construct_UClass_ARoomBase_Statics::NewProp_inOverlapListNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_ARoomBase_Statics::NewProp_inOverlapListNum_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARoomBase_Statics::NewProp_RoomEnum_MetaData[] = {
+		{ "Category", "Room" },
+		{ "ModuleRelativePath", "RoomBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ARoomBase_Statics::NewProp_RoomEnum = { "RoomEnum", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARoomBase, RoomEnum), Z_Construct_UEnum_ProceGen_ERoomEnum, METADATA_PARAMS(Z_Construct_UClass_ARoomBase_Statics::NewProp_RoomEnum_MetaData, ARRAY_COUNT(Z_Construct_UClass_ARoomBase_Statics::NewProp_RoomEnum_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ARoomBase_Statics::NewProp_RoomEnum_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARoomBase_Statics::NewProp_m_AABB_MetaData[] = {
 		{ "ModuleRelativePath", "RoomBase.h" },
 		{ "ToolTip", "Self defined Bounding Box of my Room base*" },
@@ -390,6 +459,8 @@ static struct FScriptStruct_ProceGen_StaticRegisterNativesFAABB
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoomBase_Statics::NewProp_otherRooms,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoomBase_Statics::NewProp_otherRooms_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoomBase_Statics::NewProp_inOverlapListNum,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoomBase_Statics::NewProp_RoomEnum,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoomBase_Statics::NewProp_RoomEnum_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoomBase_Statics::NewProp_m_AABB,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoomBase_Statics::NewProp_worldPosition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoomBase_Statics::NewProp_id,
@@ -422,7 +493,7 @@ static struct FScriptStruct_ProceGen_StaticRegisterNativesFAABB
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARoomBase, 4124337987);
+	IMPLEMENT_CLASS(ARoomBase, 3738283384);
 	template<> PROCEGEN_API UClass* StaticClass<ARoomBase>()
 	{
 		return ARoomBase::StaticClass();

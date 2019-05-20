@@ -1,10 +1,10 @@
-C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\Definitions.ProceGen.h
-c:\users\u1218984\documents\unreal projects\procegen\source\procegen\ProceGenCharacter.h
+C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\Definitions.ProceGen.h
+c:\users\u1218984\documents\github\procedualgenerator\procegen\source\procegen\ProceGenCharacter.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Inc\ProceGen\ProceGenCharacter.generated.h
+C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Inc\ProceGen\ProceGenCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/DecalComponent.h

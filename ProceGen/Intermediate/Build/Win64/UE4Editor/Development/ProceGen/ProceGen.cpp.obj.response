@@ -426,9 +426,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Inc\ProceGen"
-/I "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Source"
-/I "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Source\ProceGen"
+/I C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Inc\ProceGen
+/I C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Source
+/I C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Source\ProceGen
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -438,12 +438,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Source\ProceGen\ProceGen.cpp"
-/FI"C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\Definitions.ProceGen.h"
-/Fo"C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\ProceGen.cpp.obj"
+/FI"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Source\ProceGen\ProceGen.cpp"
+/FI"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\Definitions.ProceGen.h"
+/Fo"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\ProceGen.cpp.obj"
 /TP
 /GR-
 /W4
