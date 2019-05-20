@@ -1,0 +1,1053 @@
+﻿Log file open, 05/17/19 14:51:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ProceGen
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.311898
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: ProceGen
+Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/u1218984/Documents/Unreal Projects/ProceGen/ProceGen.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Creating makefile for ProceGenEditor (ini files are newer than makefile)
+@progress push 5%
+Parsing headers for ProceGenEditor
+  Running UnrealHeaderTool "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\ProceGen.uproject" "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\ProceGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for ProceGenEditor in 6.2852869 seconds
+@progress pop
+Target is up to date
+Total execution time: 8.19 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-6063286
+LogInit: Engine Version: 4.22.1-6063286+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Apr 24 2019 04:36:48
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.17-20.52.50:719][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Engine.ini]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Engine.ini]
+[2019.05.17-20.52.50:720][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Engine.ini]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Engine.ini]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.17-20.52.50:720][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Engine.ini]
+[2019.05.17-20.52.50:720][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Engine.ini]
+[2019.05.17-20.52.50:728][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.17-20.52.50:728][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.17-20.52.50:729][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:729][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.17-20.52.50:729][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.17-20.52.50:729][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.17-20.52.50:729][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.17-20.52.50:740][  0]LogHAL: Display: Platform has ~ 32 GB [34230710272 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.05.17-20.52.50:741][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.17-20.52.50:741][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.17-20.52.50:741][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-20.52.50:742][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.17-20.52.50:742][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.17-20.52.50:742][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.17-20.52.50:742][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.17-20.52.50:742][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.05.17-20.52.50:742][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Config/Windows/Engine.ini]
+[2019.05.17-20.52.50:742][  0]LogInit: Computer: eae-g-h-06
+[2019.05.17-20.52.50:742][  0]LogInit: User: u1218984
+[2019.05.17-20.52.50:742][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.17-20.52.50:742][  0]LogInit: High frequency timer resolution =3.507504 MHz
+[2019.05.17-20.52.50:742][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.05.17-20.52.50:742][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.17-20.52.50:742][  0]LogMemory: Process Physical Memory: 101.13 MB used, 101.13 MB peak
+[2019.05.17-20.52.50:742][  0]LogMemory: Process Virtual Memory: 89.34 MB used, 89.34 MB peak
+[2019.05.17-20.52.50:742][  0]LogMemory: Physical Memory: 8899.13 MB used,  23745.82 MB free, 32644.95 MB total
+[2019.05.17-20.52.50:742][  0]LogMemory: Virtual Memory: 4710.61 MB used,  134213016.00 MB free, 134217728.00 MB total
+[2019.05.17-20.52.50:773][  0]LogInit: Using OS detected language (en-US).
+[2019.05.17-20.52.50:773][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.17-20.52.50:774][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.17-20.52.50:951][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.17-20.52.50:996][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.17-20.52.50:996][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.17-20.52.51:179][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.17-20.52.51:179][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.17-20.52.51:241][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.05.17-20.52.51:241][  0]LogD3D11RHI:       4043/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.17-20.52.51:250][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.05.17-20.52.51:250][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.05.17-20.52.51:252][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.17-20.52.51:252][  0]LogD3D11RHI:       0/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.17-20.52.51:252][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.17-20.52.51:260][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.17-20.52.51:260][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.17-20.52.51:260][  0]LogWindows: EnumDisplayDevices:
+[2019.05.17-20.52.51:260][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.05.17-20.52.51:261][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.05.17-20.52.51:261][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.05.17-20.52.51:261][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.05.17-20.52.51:262][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.05.17-20.52.51:262][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.05.17-20.52.51:262][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.05.17-20.52.51:263][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.05.17-20.52.51:263][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.05.17-20.52.51:263][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2019.05.17-20.52.51:263][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2019.05.17-20.52.51:263][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.05.17-20.52.51:306][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.17-20.52.51:310][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.17-20.52.51:311][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.17-20.52.51:311][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.17-20.52.51:324][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.17-20.52.51:718][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.05.17-20.52.51:733][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.05.17-20.52.51:748][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.05.17-20.52.51:763][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.05.17-20.52.51:778][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.05.17-20.52.51:793][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.05.17-20.52.51:807][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.05.17-20.52.51:822][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.05.17-20.52.51:830][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.05.17-20.52.51:910][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.05.17-20.52.51:912][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.05.17-20.52.51:962][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.05.17-20.52.51:962][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.05.17-20.52.51:985][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.05.17-20.52.51:985][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.05.17-20.52.51:997][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.05.17-20.52.52:010][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.05.17-20.52.52:022][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.05.17-20.52.52:034][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.05.17-20.52.52:077][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.05.17-20.52.52:077][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.05.17-20.52.52:077][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.17-20.52.52:089][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.05.17-20.52.52:165][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/Intermediate/Shaders/WorkingDirectory/14288/).
+[2019.05.17-20.52.52:166][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1218984/AppData/Local/Temp/UnrealShaderWorkingDir/3E413699468FD371A923CF8B3FF133F2/'.
+[2019.05.17-20.52.52:170][  0]LogXGEController: Cleaning working directory: C:/Users/u1218984/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.17-20.52.52:170][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.17-20.52.52:170][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.17-20.52.52:170][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.17-20.52.52:708][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.17-20.52.52:792][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/u1218984/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.17-20.52.52:792][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1218984/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.05.17-20.52.52:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.17-20.52.52:792][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.17-20.52.52:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.17-20.52.52:792][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.17-20.52.52:805][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.17-20.52.52:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.17-20.52.52:805][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.17-20.52.52:817][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1218984/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.17-20.52.52:817][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.17-20.52.52:817][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.17-20.52.52:838][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.17-20.52.52:839][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.17-20.52.52:840][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.17-20.52.52:927][  0]LogAssetRegistry: FAssetRegistry took 0.0327 seconds to start up
+[2019.05.17-20.52.53:254][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.17-20.52.53:396][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.17-20.52.53:397][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.05.17-20.52.53:397][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.17-20.52.53:397][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.05.17-20.52.53:397][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.05.17-20.52.53:407][  0]LogNetVersion: ProceGen 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 744135482)
+[2019.05.17-20.52.53:817][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.045220 seconds
+[2019.05.17-20.52.53:826][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.05.17-20.52.53:826][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.05.17-20.52.53:826][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.17-20.52.54:714][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.17-20.52.54:728][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.17-20.52.54:986][  0]SourceControl: Source control is disabled
+[2019.05.17-20.52.54:986][  0]SourceControl: Source control is disabled
+[2019.05.17-20.52.54:987][  0]SourceControl: Source control is disabled
+[2019.05.17-20.52.54:988][  0]SourceControl: Source control is disabled
+[2019.05.17-20.52.55:065][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.17-20.52.55:174][  0]LogOcInput: OculusInput pre-init called
+[2019.05.17-20.52.55:866][  0]LogEngine: Initializing Engine...
+[2019.05.17-20.52.55:867][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.17-20.52.55:868][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.05.17-20.52.56:071][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.17-20.52.56:092][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.17-20.52.56:121][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.17-20.52.56:148][  0]LogInit: FAudioDevice initialized.
+[2019.05.17-20.52.56:148][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.17-20.52.56:246][  0]LogDerivedDataCache: Saved boot cache 0.10s 75MB C:/Users/u1218984/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.17-20.52.56:277][  0]LogInit: Texture streaming: Enabled
+[2019.05.17-20.52.56:304][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.17-20.52.56:304][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FE393AF2-4FA1-AB69-C3EF-269CB4AA0211}
+[2019.05.17-20.52.56:336][  0]LogInit: Transaction tracking system initialized
+[2019.05.17-20.52.56:372][  0]BlueprintLog: New page: Editor Load
+[2019.05.17-20.52.56:515][  0]LocalizationService: Localization service is disabled
+[2019.05.17-20.52.56:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Content/' took 0.02s
+[2019.05.17-20.52.56:812][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.17-20.52.56:812][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.17-20.52.57:029][  0]SourceControl: Source control is disabled
+[2019.05.17-20.52.57:029][  0]Cmd: MAP LOAD FILE="../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.17-20.52.57:029][  0]LightingResults: New page: Lighting Build
+[2019.05.17-20.52.57:033][  0]MapCheck: New page: Map Check
+[2019.05.17-20.52.57:033][  0]LightingResults: New page: Lighting Build
+[2019.05.17-20.52.57:060][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2019.05.17-20.52.57:127][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.05.17-20.52.57:142][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.17-20.52.57:169][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.05.17-20.52.57:169][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.17-20.52.57:170][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.174ms to complete.
+[2019.05.17-20.52.57:170][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.141
+[2019.05.17-20.52.57:270][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.52.57:277][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.52.57:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.52.57:290][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.52.57:300][  0]LogCollectionManager: Loaded 0 collections in 0.003513 seconds
+[2019.05.17-20.52.57:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Collections/' took 0.01s
+[2019.05.17-20.52.57:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Content/Developers/u1218984/Collections/' took 0.00s
+[2019.05.17-20.52.57:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1218984/Documents/Unreal Projects/ProceGen/Content/Collections/' took 0.00s
+[2019.05.17-20.52.57:319][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.05.17-20.52.57:328][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2737 classes and 661 folders.
+[2019.05.17-20.52.57:338][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.17-20.52.57:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:340][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:340][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:341][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:341][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:342][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:342][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:345][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:345][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:347][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:347][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:348][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:348][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:350][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:350][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:351][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:351][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:352][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-20.52.57:399][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.17-20.52.57:406][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.05.17-20.52.57:420][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.17-20.52.57:423][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.17-20.52.57:428][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.17-20.52.57:493][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.05.17-20.52.57:623][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.17-20.52.57:623][  0]LogLoad: (Engine Initialization) Total time: 61.97 seconds
+[2019.05.17-20.52.57:623][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.17-20.52.57:633][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.17-20.52.57:655][  0]LogAssetRegistry: Asset discovery search completed in 4.7504 seconds
+[2019.05.17-20.52.57:657][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.17-20.52.57:657][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2019.05.17-20.52.57:658][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.17-20.52.57:675][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.17-20.52.59:547][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-20.52.59:629][229]Candidate modules for hot reload:
+[2019.05.17-20.52.59:629][229]  ProceGen
+[2019.05.17-20.52.59:629][229]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceGen,8257 Win64 Development -TargetType=Editor -Project="C:/Users/u1218984/Documents/Unreal Projects/ProceGen/ProceGen.uproject" "C:/Users/u1218984/Documents/Unreal Projects/ProceGen/ProceGen.uproject"  -IgnoreJunk]
+[2019.05.17-20.52.59:632][229]Warning: Starting HotReload took  0.0s.
+[2019.05.17-20.53.06:288][ 14]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.17-20.53.10:782][542]CompilerResultsLog: New page: Compilation - May 17, 2019, 8:53:10 AM
+[2019.05.17-20.53.10:782][542]CompilerResultsLog: Creating makefile for ProceGenEditor (ini files are newer than makefile)
+[2019.05.17-20.53.10:782][542]CompilerResultsLog: Parsing headers for ProceGenEditor
+[2019.05.17-20.53.10:782][542]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\ProceGen.uproject" "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\ProceGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.17-20.53.10:782][542]CompilerResultsLog: Reflection code generated for ProceGenEditor in 7.3210838 seconds
+[2019.05.17-20.53.10:782][542]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.17-20.53.10:782][542]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.05.17-20.53.10:782][542]CompilerResultsLog:   [1/3] UE4Editor-ProceGen-8257.lib
+[2019.05.17-20.53.10:782][542]CompilerResultsLog:      Creating library C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-8257.lib and object C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-8257.exp
+[2019.05.17-20.53.10:782][542]CompilerResultsLog:   [2/3] UE4Editor-ProceGen-8257.dll
+[2019.05.17-20.53.10:782][542]CompilerResultsLog:      Creating library C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-8257.suppressed.lib and object C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-8257.suppressed.exp
+[2019.05.17-20.53.10:782][542]CompilerResultsLog:   [3/3] ProceGenEditor.target
+[2019.05.17-20.53.10:782][542]CompilerResultsLog: Total time in Parallel executor: 1.36 seconds
+[2019.05.17-20.53.10:782][542]CompilerResultsLog: Total execution time: 11.07 seconds
+[2019.05.17-20.53.10:783][542]LogMainFrame: MainFrame: Module compiling took 11.157 seconds
+[2019.05.17-20.53.10:808][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.05.17-20.53.10:828][542]LogClass: AABB HotReload.
+[2019.05.17-20.53.10:833][542]LogContentBrowser: Native class hierarchy updated for 'ProceGen' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.05.17-20.53.10:836][542]Display: HotReload successful (2 functions remapped  1 scriptstructs remapped)
+[2019.05.17-20.53.10:947][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.05.17-20.53.10:959][542]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2738 classes and 663 folders.
+[2019.05.17-20.53.10:959][542]Display: HotReload took 11.3s.
+[2019.05.17-20.53.12:265][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.05.17-20.53.12:372][694]LogSavePackage: Moving '../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/TopDownExampleMap25EB6D0848269D91DE924AA2B35DFB6E.tmp' to '../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2019.05.17-20.53.12:464][694]LogSavePackage: Moving '../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/TopDownExampleMap_BuiltDataF715133F4C4E6DD862D3829B7E2EF120.tmp' to '../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/Content/TopDownCPP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2019.05.17-20.53.14:150][894]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.17-20.53.14:161][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.53.14:161][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.17-20.53.14:161][894]PIE: New page: PIE session: TopDownExampleMap (May 17, 2019, 8:53:14 AM)
+[2019.05.17-20.53.14:173][894]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.05.17-20.53.14:187][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013978s)
+[2019.05.17-20.53.14:188][894]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.05.17-20.53.14:188][894]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2019.05.17-20.53.14:188][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.014916s)
+[2019.05.17-20.53.14:212][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.05.17-20.53.14:233][894]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.17-20.53.14:243][894]LogInit: FAudioDevice initialized.
+[2019.05.17-20.53.14:282][894]LogLoad: Game class is 'ProceGenGameMode'
+[2019.05.17-20.53.14:284][894]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.05.17-14.53.14
+[2019.05.17-20.53.14:285][894]LogWorld: Bringing up level for play took: 0.000832
+[2019.05.17-20.53.14:350][894]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.05.17-20.53.14:352][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:352][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:352][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:352][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:353][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:353][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:353][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:353][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:353][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:353][894]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.53.14:354][894]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.772
+[2019.05.17-20.53.14:354][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.53.18:148][334]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase)
+[2019.05.17-20.53.19:178][441]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.17-20.53.21:757][687]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase8)
+[2019.05.17-20.53.22:846][795]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase)
+[2019.05.17-20.53.23:426][850]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase8)
+[2019.05.17-20.53.27:652][318]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase)
+[2019.05.17-20.53.29:488][493]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase8)
+[2019.05.17-20.53.30:928][647]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase)
+[2019.05.17-20.53.33:830][948]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase8)
+[2019.05.17-20.53.34:592][ 17]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase)
+[2019.05.17-20.53.35:160][ 68]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase8)
+[2019.05.17-20.53.37:043][257]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase3)
+[2019.05.17-20.53.37:491][292]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase7)
+[2019.05.17-20.53.38:174][344]LogEditorViewport: Clicking on Actor (LMB): RoomBase (RoomBase1)
+[2019.05.17-20.53.41:697][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-20.53.41:790][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.53.41:790][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.53.41:819][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.17-20.53.41:819][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.53.41:845][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.53.41:848][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.05.17-20.53.41:891][708]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.05.17-20.54.05:319][466]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.17-20.54.05:328][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.54.05:328][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.17-20.54.05:328][466]PIE: New page: PIE session: TopDownExampleMap (May 17, 2019, 8:54:05 AM)
+[2019.05.17-20.54.05:328][466]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.05.17-20.54.05:342][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014344s)
+[2019.05.17-20.54.05:343][466]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.05.17-20.54.05:343][466]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2019.05.17-20.54.05:343][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.015248s)
+[2019.05.17-20.54.05:368][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.05.17-20.54.05:390][466]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.17-20.54.05:399][466]LogInit: FAudioDevice initialized.
+[2019.05.17-20.54.05:428][466]LogLoad: Game class is 'ProceGenGameMode'
+[2019.05.17-20.54.05:429][466]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.05.17-14.54.05
+[2019.05.17-20.54.05:429][466]LogWorld: Bringing up level for play took: 0.000644
+[2019.05.17-20.54.05:442][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:442][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:442][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:442][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:443][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:444][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:445][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:445][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:445][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:445][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:445][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:445][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:445][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:445][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:446][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:446][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:446][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:446][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:446][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:446][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:446][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:446][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:447][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:448][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:448][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:448][466]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.05:448][466]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.323
+[2019.05.17-20.54.05:448][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.54.09:380][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-20.54.15:230][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-20.54.15:332][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.54.15:332][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.54.15:365][564]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.17-20.54.15:365][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.54.15:387][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.54.15:390][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.05.17-20.54.15:431][568]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.05.17-20.54.27:334][993]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.17-20.54.27:343][993]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.54.27:343][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.17-20.54.27:343][993]PIE: New page: PIE session: TopDownExampleMap (May 17, 2019, 8:54:27 AM)
+[2019.05.17-20.54.27:343][993]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.05.17-20.54.27:356][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012919s)
+[2019.05.17-20.54.27:357][993]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.05.17-20.54.27:357][993]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2019.05.17-20.54.27:357][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.013794s)
+[2019.05.17-20.54.27:382][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.05.17-20.54.27:403][993]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.17-20.54.27:412][993]LogInit: FAudioDevice initialized.
+[2019.05.17-20.54.27:441][993]LogLoad: Game class is 'ProceGenGameMode'
+[2019.05.17-20.54.27:442][993]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.05.17-14.54.27
+[2019.05.17-20.54.27:442][993]LogWorld: Bringing up level for play took: 0.000626
+[2019.05.17-20.54.27:455][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:455][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:455][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:456][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:457][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:458][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:459][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:460][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:461][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:462][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:462][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:462][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:462][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:462][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:462][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:462][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:462][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:463][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:464][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:465][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:465][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:465][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:465][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:465][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:465][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:465][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:465][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:466][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:466][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:466][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:466][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:466][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:466][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:466][993]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-20.54.27:467][993]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.342
+[2019.05.17-20.54.27:467][993]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.54.31:727][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-20.58.10:965][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.58.10:966][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.58.11:002][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.17-20.58.11:002][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-20.58.11:026][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-20.58.11:030][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.05.17-20.58.11:070][130]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.05.17-20.58.14:653][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.17-20.58.15:580][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.17-20.58.16:348][754]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2019.05.17-20.58.17:251][858]Cmd: DELETE
+[2019.05.17-20.58.17:251][858]Cmd: ACTOR DELETE
+[2019.05.17-20.58.17:253][858]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.05.17-20.58.17:274][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.05.17-20.58.17:274][858]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.05.17-21.01.34:852][721]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-21.04.24:073][430]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.17-21.04.24:082][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-21.04.24:082][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.17-21.04.24:083][430]PIE: New page: PIE session: TopDownExampleMap (May 17, 2019, 9:04:24 AM)
+[2019.05.17-21.04.24:083][430]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.05.17-21.04.24:096][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013540s)
+[2019.05.17-21.04.24:097][430]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.05.17-21.04.24:097][430]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2019.05.17-21.04.24:097][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.014430s)
+[2019.05.17-21.04.24:125][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.05.17-21.04.24:146][430]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.17-21.04.24:158][430]LogInit: FAudioDevice initialized.
+[2019.05.17-21.04.24:187][430]LogLoad: Game class is 'ProceGenGameMode'
+[2019.05.17-21.04.24:188][430]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.05.17-15.04.24
+[2019.05.17-21.04.24:189][430]LogWorld: Bringing up level for play took: 0.000615
+[2019.05.17-21.04.24:201][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:202][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:203][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:203][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:203][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:203][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:203][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:203][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:203][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:203][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:204][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:205][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:205][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:205][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:205][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:205][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:205][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:205][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:206][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:207][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:207][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:207][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:207][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:207][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:207][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:207][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:208][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:208][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:208][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:208][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:208][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:208][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:208][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:208][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:209][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:210][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:211][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:212][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:213][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:213][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:213][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:213][430]LogActor: Warning: RoomBase /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.RoomBase_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.05.17-21.04.24:213][430]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 1.09
+[2019.05.17-21.04.24:213][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-21.04.30:965][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-21.04.30:965][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-21.04.30:999][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.17-21.04.30:999][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-21.04.31:024][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-21.04.31:027][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.05.17-21.04.31:071][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.05.17-21.07.40:749][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.05.17-21.07.40:868][971]LogSavePackage: Moving '../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/TopDownExampleMap_Auto16678AACF44E67FC00D43D9843376574F.tmp' to '../../../../../../Users/u1218984/Documents/Unreal Projects/ProceGen/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap'
+[2019.05.17-21.07.40:874][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.144
+[2019.05.17-21.07.40:874][971]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.144
+[2019.05.17-21.08.41:085][203]Candidate modules for hot reload:
+[2019.05.17-21.08.41:085][203]  ProceGen
+[2019.05.17-21.08.41:085][203]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceGen,1056 Win64 Development -TargetType=Editor -Project="C:/Users/u1218984/Documents/Unreal Projects/ProceGen/ProceGen.uproject" "C:/Users/u1218984/Documents/Unreal Projects/ProceGen/ProceGen.uproject"  -IgnoreJunk]
+[2019.05.17-21.08.41:088][203]Warning: Starting HotReload took  0.0s.
+[2019.05.17-21.08.54:450][769]CompilerResultsLog: New page: Compilation - May 17, 2019, 9:08:54 AM
+[2019.05.17-21.08.54:451][769]CompilerResultsLog: Creating makefile for ProceGenEditor (ini files are newer than makefile)
+[2019.05.17-21.08.54:451][769]CompilerResultsLog: Parsing headers for ProceGenEditor
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\ProceGen.uproject" "C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\ProceGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.17-21.08.54:451][769]CompilerResultsLog: Reflection code generated for ProceGenEditor in 7.8115449 seconds
+[2019.05.17-21.08.54:451][769]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.17-21.08.54:451][769]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:   [1/7] ProceGen.init.gen.cpp
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:   [2/7] MapGeneartor.cpp
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:   [3/7] RoomBase.gen.cpp
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:   [4/7] RoomBase.cpp
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:   [5/7] UE4Editor-ProceGen-1056.lib
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:      Creating library C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-1056.lib and object C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-1056.exp
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:   [6/7] UE4Editor-ProceGen-1056.dll
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:      Creating library C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-1056.suppressed.lib and object C:\Users\u1218984\Documents\Unreal Projects\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-1056.suppressed.exp
+[2019.05.17-21.08.54:451][769]CompilerResultsLog:   [7/7] ProceGenEditor.target
+[2019.05.17-21.08.54:451][769]CompilerResultsLog: Total time in Parallel executor: 2.91 seconds
+[2019.05.17-21.08.54:451][769]CompilerResultsLog: Total execution time: 13.27 seconds
+[2019.05.17-21.08.54:451][769]LogMainFrame: MainFrame: Module compiling took 13.368 seconds
+[2019.05.17-21.08.54:477][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.05.17-21.08.54:497][769]LogClass: Could not find existing class RoomBase in package /Script/ProceGen for HotReload, assuming new class
+[2019.05.17-21.08.54:497][769]LogClass: Function OnBeginOverlap is new.
+[2019.05.17-21.08.54:497][769]LogClass: Function OnEndOverlap is new.
+[2019.05.17-21.08.54:497][769]LogClass: AABB HotReload.
+[2019.05.17-21.08.54:498][769]LogHotReload: Re-instancing MapGeneartor after hot-reload.
+[2019.05.17-21.08.54:573][769]LogHotReload: Re-instancing RoomBase after hot-reload.
+[2019.05.17-21.08.54:639][769]LogContentBrowser: Native class hierarchy updated for 'ProceGen' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.05.17-21.08.54:641][769]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2019.05.17-21.08.54:694][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.05.17-21.08.54:706][769]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2738 classes and 663 folders.
+[2019.05.17-21.08.54:706][769]Display: HotReload took 13.6s.
+[2019.05.17-21.09.01:039][527]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.17-21.09.01:051][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.05.17-21.09.01:051][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.17-21.09.01:051][527]PIE: New page: PIE session: TopDownExampleMap (May 17, 2019, 9:09:01 AM)
+[2019.05.17-21.09.01:051][527]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.05.17-21.09.01:063][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011387s)
+[2019.05.17-21.09.01:063][527]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.05.17-21.09.01:063][527]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2019.05.17-21.09.01:063][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.012277s)
+[2019.05.17-21.09.01:087][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.05.17-21.09.01:109][527]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.17-21.09.01:119][527]LogInit: FAudioDevice initialized.
+[2019.05.17-21.09.01:151][527]LogLoad: Game class is 'ProceGenGameMode'
+[2019.05.17-21.09.01:152][527]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.05.17-15.09.01
+[2019.05.17-21.09.01:152][527]LogWorld: Bringing up level for play took: 0.000592
+[2019.05.17-21.09.01:165][527]LogSpawn: Warning: SpawnActor failed because no class was specified
