@@ -50,10 +50,11 @@ public:
 
 	FORCEINLINE bool IsFinishSeperating() const { return otherRooms.Num() == 0; }
 	FORCEINLINE float GetAreaOfRoom()const { return m_AABB.Extend.X * m_AABB.Extend.Y * 4; }
+	FORCEINLINE FVector2D GetWorldLocation()const { return worldPosition; }
+
 	bool IsIn2DArea(FVector2D inVec);
 	void SetAsMainRoom(class UMaterial* dynamicInst);
 	void SetMeshVisibility(bool bNewVisibility);
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProceGen.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{14B9746B-3665-4396-9912-DDB76D1961D3}</UniqueIdentifier>
+      <UniqueIdentifier>{D9F9E570-862D-4BC3-80AD-A7405CEAB359}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProceGen.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\ProceGenEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{19B18AF6-84FE-4113-813E-37F294E26693}</UniqueIdentifier>
+      <UniqueIdentifier>{E811B0DA-7966-4802-8597-1EBF443E5AD1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ProceGen">
-      <UniqueIdentifier>{01590077-7958-4EBC-8CD3-AAF897F50185}</UniqueIdentifier>
+      <UniqueIdentifier>{C6A118D6-73D8-41AD-860D-5555B191D589}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProceGen\MapGeneartor.cpp">
       <Filter>Source\ProceGen</Filter>
@@ -71,5 +72,33 @@
     <ClInclude Include="..\..\Source\ProceGen\RoomBase.h">
       <Filter>Source\ProceGen</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ProceGen\MyGraph.h">
+      <Filter>Source\ProceGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ProceGen\V.h">
+      <Filter>Source\ProceGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ProceGen\F.h">
+      <Filter>Source\ProceGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ProceGen\E.h">
+      <Filter>Source\ProceGen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ProceGen\MyGraph.cpp">
+      <Filter>Source\ProceGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProceGen\V.cpp">
+      <Filter>Source\ProceGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProceGen\F.cpp">
+      <Filter>Source\ProceGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProceGen\E.cpp">
+      <Filter>Source\ProceGen</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
