@@ -12,6 +12,7 @@ class PROCEGEN_API V
 public:
 	V() :X(0), Y(0) {};
 	V(float i_X, float i_Y) : X(i_X), Y(i_Y) {}
+	V(const FVector2D i_V2D) : X(i_V2D.X), Y(i_V2D.Y) {}
 	V(const V&i_other) : X(i_other.X), Y(i_other.Y) {}
 	~V();
 

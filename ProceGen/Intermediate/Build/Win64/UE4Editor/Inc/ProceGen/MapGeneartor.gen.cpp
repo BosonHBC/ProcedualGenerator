@@ -38,7 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeMapGeneartor() {}
 		return EGenStepEnum_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EGenStepEnum(EGenStepEnum_StaticEnum, TEXT("/Script/ProceGen"), TEXT("EGenStepEnum"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ProceGen_EGenStepEnum_Hash() { return 3170486365U; }
+	uint32 Get_Z_Construct_UEnum_ProceGen_EGenStepEnum_Hash() { return 514419402U; }
 	UEnum* Z_Construct_UEnum_ProceGen_EGenStepEnum()
 	{
 #if WITH_HOT_RELOAD
@@ -54,10 +54,12 @@ void EmptyLinkFunctionForGeneratedCodeMapGeneartor() {}
 				{ "EGenStepEnum::GSE_SEPARATING_ROOMS", (int64)EGenStepEnum::GSE_SEPARATING_ROOMS },
 				{ "EGenStepEnum::GSE_SELECTING_ROOMS", (int64)EGenStepEnum::GSE_SELECTING_ROOMS },
 				{ "EGenStepEnum::GSE_GRAPHING_ROOMS", (int64)EGenStepEnum::GSE_GRAPHING_ROOMS },
+				{ "EGenStepEnum::GSE_CHOOSE_HALLWAY", (int64)EGenStepEnum::GSE_CHOOSE_HALLWAY },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "GSE_CHOOSE_HALLWAY.DispalyName", "Hallway" },
 				{ "GSE_GENERATING_ROOMS.DisplayName", "Generaing" },
 				{ "GSE_GRAPHING_ROOMS.DispalyName", "Graphing" },
 				{ "GSE_SELECTING_ROOMS.DisplayName", "Selecting" },

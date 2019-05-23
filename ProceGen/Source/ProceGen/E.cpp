@@ -9,7 +9,7 @@ E::E()
 {
 }
 void E::DebugDrawEdge(const UWorld* InWorld) {
-	DrawDebugLine(InWorld, FVector(V1.X, V1.Y, 0.0f), FVector(V1.X, V2.Y, 0.0f), FColor::Cyan);
+	DrawDebugLine(InWorld, FVector(V1->X, V1->Y, 200.0f), FVector(V2->X, V2->Y, 200.0f), FColor::Black, true, 2.0f);
 }
 
 E::~E()

@@ -6,6 +6,8 @@
 #include "Engine/World.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Materials/MaterialInstanceDynamic.h"
+#include"MyGraph.h"
+
 #define TILE_SIZE 4
 // Sets default values
 AMapGeneartor::AMapGeneartor()
@@ -89,7 +91,20 @@ void AMapGeneartor::Tick(float DeltaTime)
 				}
 				// After marking all main room, create graph
 				GenStepEnum = EGenStepEnum::GSE_GRAPHING_ROOMS;
+				myGraph = new MyGraph(MainRoomList, GetWorld());
+				myGraph->BuildBoundaryTriangle();
 			}
+		}
+	}
+	if (GenStepEnum == EGenStepEnum::GSE_GRAPHING_ROOMS) {
+		bool bAllFinished = false;
+
+		if (myGraph) {
+			myGraph->DebugDrawAllFace();
+		}
+
+		if (bAllFinished) {
+			GenStepEnum = EGenStepEnum::GSE_CHOOSE_HALLWAY;
 		}
 	}
 }

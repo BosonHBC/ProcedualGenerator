@@ -12,7 +12,9 @@ enum class EGenStepEnum : uint8
 	GSE_GENERATING_ROOMS				UMETA(DisplayName = "Generaing"),
 	GSE_SEPARATING_ROOMS 				UMETA(DisplayName = "Separating"),
 	GSE_SELECTING_ROOMS					UMETA(DisplayName = "Selecting"),
-	GSE_GRAPHING_ROOMS					UMETA(DispalyName = "Graphing")
+	GSE_GRAPHING_ROOMS					UMETA(DispalyName = "Graphing"),
+	GSE_CHOOSE_HALLWAY						UMETA(DispalyName = "Hallway")
+
 };
 
 UCLASS()
@@ -73,5 +75,8 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+private:
+	class MyGraph* myGraph;
 
 };
