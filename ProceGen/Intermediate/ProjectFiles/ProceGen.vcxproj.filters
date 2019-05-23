@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProceGen.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D9F9E570-862D-4BC3-80AD-A7405CEAB359}</UniqueIdentifier>
+      <UniqueIdentifier>{38C47919-834A-45A7-A7CA-1BDE2F02F896}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProceGen.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{E811B0DA-7966-4802-8597-1EBF443E5AD1}</UniqueIdentifier>
+      <UniqueIdentifier>{1F41A127-D102-4D6A-8FC9-5E0EE6C5B327}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,12 +31,30 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ProceGen">
-      <UniqueIdentifier>{C6A118D6-73D8-41AD-860D-5555B191D589}</UniqueIdentifier>
+      <UniqueIdentifier>{9808560B-CAC1-402F-89A0-DE57D465C8CD}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ProceGen\E.cpp">
+      <Filter>Source\ProceGen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceGen\E.h">
+      <Filter>Source\ProceGen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProceGen\F.cpp">
+      <Filter>Source\ProceGen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceGen\F.h">
+      <Filter>Source\ProceGen</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ProceGen\MapGeneartor.cpp">
       <Filter>Source\ProceGen</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProceGen\MapGeneartor.h">
+      <Filter>Source\ProceGen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProceGen\MyGraph.cpp">
+      <Filter>Source\ProceGen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceGen\MyGraph.h">
       <Filter>Source\ProceGen</Filter>
     </ClInclude>
     <None Include="..\..\Source\ProceGen\ProceGen.Build.cs">
@@ -72,33 +90,11 @@
     <ClInclude Include="..\..\Source\ProceGen\RoomBase.h">
       <Filter>Source\ProceGen</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\ProceGen\MyGraph.h">
-      <Filter>Source\ProceGen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ProceGen\V.h">
-      <Filter>Source\ProceGen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ProceGen\F.h">
-      <Filter>Source\ProceGen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ProceGen\E.h">
-      <Filter>Source\ProceGen</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\ProceGen\MyGraph.cpp">
-      <Filter>Source\ProceGen</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\ProceGen\V.cpp">
       <Filter>Source\ProceGen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\ProceGen\F.cpp">
+    <ClInclude Include="..\..\Source\ProceGen\V.h">
       <Filter>Source\ProceGen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ProceGen\E.cpp">
-      <Filter>Source\ProceGen</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

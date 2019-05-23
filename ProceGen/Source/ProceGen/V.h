@@ -10,14 +10,23 @@
 class PROCEGEN_API V
 {
 public:
-	V();
+	V() :X(0), Y(0) {};
 	V(float i_X, float i_Y) : X(i_X), Y(i_Y) {}
+	V(const V&i_other) : X(i_other.X), Y(i_other.Y) {}
 	~V();
 
-	void PushEdgeToVertex(class E* i_other);
+	float dist2(const V& v) const {
+		float dx = X - v.X;
+		float dy = Y - v.Y;
 
-private:
+		return dx * dx* +dy * dy;
+	}
+	float dist(const V& v) const { return FMath::Sqrt(dist2(v)); }
+
+	float norm2() const { return X * X + Y * Y; }
+
+	bool operator == (const V& v2) const;
 	float X;
 	float Y;
-	TArray<E*> edgs;
+
 };

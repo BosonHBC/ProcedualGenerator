@@ -3,24 +3,15 @@
 
 #include "E.h"
 #include "V.h"
-#include "F.h"
+#include"DrawDebugHelpers.h"
+#include"Engine/World.h"
 E::E()
 {
 }
-E::E(V* i_v1, V* i_v2) 
-	: v1(i_v1), v2(i_v2)
-{
-	v1->PushEdgeToVertex(this);
-	v2->PushEdgeToVertex(this);
+void E::DebugDrawEdge(const UWorld* InWorld) {
+	DrawDebugLine(InWorld, FVector(V1.X, V1.Y, 0.0f), FVector(V1.X, V2.Y, 0.0f), FColor::Cyan);
 }
 
 E::~E()
 {
-}
-
-void E::PushFaceToEdge(F* i_other) {
-	if (f1 == nullptr)
-		f1 = i_other;
-	else if (f2 == nullptr)
-		f2 = i_other;
 }

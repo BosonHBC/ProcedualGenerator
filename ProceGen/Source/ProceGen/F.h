@@ -11,9 +11,14 @@ class PROCEGEN_API F
 {
 public:
 	F();
-	F(class E* e1, E* e2, E* e3);
+
+	F( const class V& v1, const V& v2, const V& v3);
 	~F();
 
-private:
-	TArray<E*> edgs;
+	V V1;
+	V V2;
+	V V3;
+	E E1;
+	E E2;
+	E E3;
 };

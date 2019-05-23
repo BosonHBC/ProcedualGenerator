@@ -13,8 +13,6 @@ public:
 	MyGraph();
 	~MyGraph();
 
-	void PushPointToGraph(FVector2D worldPos);
-	void CreateBoundaryFaces(class AMapGeneartor* i_MainRoom);
 
 private:
 	TArray<class F*> faces;

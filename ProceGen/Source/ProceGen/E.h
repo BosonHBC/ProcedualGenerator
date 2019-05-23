@@ -11,14 +11,16 @@ class PROCEGEN_API E
 {
 public:
 	E();
-	E(class V* i_v1, V* i_v2) : v1(i_v1), v2(i_v2);
-
-	void PushFaceToEdge(class F* i_other);
-
+	E(const class V& i_v1, const V& i_v2) : V1(i_v1), V2(i_v2), IsBad(false) {}
+	E(const E& i_other) : V1(i_other.V1), V2(i_other.V2), IsBad(i_other.IsBad) {}
 	~E();
+	void DebugDrawEdge(const class UWorld* InWorld);
+
+	bool GetIsBad() const { return IsBad; }
+
+
 private:
-	V* v1;
-	V* v2;
-	F* f1;
-	F* f2;
+	V V1;
+	V V2;
+	bool IsBad;
 };

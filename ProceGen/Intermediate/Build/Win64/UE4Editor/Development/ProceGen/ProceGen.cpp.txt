@@ -1,2 +1,2 @@
-D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\Definitions.ProceGen.h
-d:\unreal projects\procedualgenerator\procegen\source\procegen\ProceGen.h
+C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\Definitions.ProceGen.h
+c:\users\u1218984\documents\github\procedualgenerator\procegen\source\procegen\ProceGen.h

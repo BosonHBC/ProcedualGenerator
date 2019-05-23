@@ -426,23 +426,24 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Inc\ProceGen"
-/I "D:\Unreal Projects\ProcedualGenerator\ProceGen\Source"
-/I "D:\Unreal Projects\ProcedualGenerator\ProceGen\Source\ProceGen"
+/I C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Inc\ProceGen
+/I C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Source
+/I C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Source\ProceGen
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Inc\ProceGen\ProceGenGameMode.gen.cpp"
-/FI"D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\Definitions.ProceGen.h"
-/Fo"D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\ProceGenGameMode.gen.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Inc\ProceGen\ProceGenGameMode.gen.cpp"
+/FI"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\Definitions.ProceGen.h"
+/Fo"C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\ProceGenGameMode.gen.cpp.obj"
 /TP
 /GR-
 /W4
