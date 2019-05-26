@@ -15,7 +15,17 @@ public:
 	~MyGraph();
 
 	void BuildBoundaryTriangle();
+	void TrianglateVertex(int16 vertexID);
+
+	// Denig Function
+	void DebugDrawAllVertex();
 	void DebugDrawAllFace();
+
+	// Getter
+	FORCEINLINE TArray<class F*> GetFaces() const { return faces; }
+	FORCEINLINE TArray<class E*> GetEdges() const { return edges; }
+	FORCEINLINE TArray<class V*> GetVertexs() const { return vertexs; }
+
 private:
 	TArray<class ARoomBase*> listOfMainRooms;
 

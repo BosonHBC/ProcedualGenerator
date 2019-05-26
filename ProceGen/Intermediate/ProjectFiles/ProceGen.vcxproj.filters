@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProceGen.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{85F7CBB2-6E13-41FB-AE74-628A7F948BD6}</UniqueIdentifier>
+      <UniqueIdentifier>{72A38E1A-ACF7-48F5-B8D7-50EB5A4FD90D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProceGen.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{097107DA-908F-4244-8708-F170A4AD0298}</UniqueIdentifier>
+      <UniqueIdentifier>{86F3D912-E33E-4FB4-A023-FA0ED32C1520}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ProceGen">
-      <UniqueIdentifier>{3304FAD6-AFB9-478B-A981-1AD7A6DBBCED}</UniqueIdentifier>
+      <UniqueIdentifier>{CD00CF23-FD5C-4E24-BDF0-B46607CB09D8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProceGen\E.cpp">
       <Filter>Source\ProceGen</Filter>

@@ -60,6 +60,8 @@ public:
 
 	UPROPERTY()
 	class UMaterial* UM_MainRoomInst;
+	
+	int16 NumOfMainRoom;
 
 	UPROPERTY(BlueprintReadOnly)
 		TArray<ARoomBase*> RoomList;

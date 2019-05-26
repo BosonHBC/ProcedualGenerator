@@ -26,6 +26,8 @@ public:
 
 	float norm2() const { return X * X + Y * Y; }
 
+	void DebugDrawVertex(const class UWorld* context);
+
 	bool operator == (const V& v2) const;
 	float X;
 	float Y;

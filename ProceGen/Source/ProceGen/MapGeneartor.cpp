@@ -89,6 +89,7 @@ void AMapGeneartor::Tick(float DeltaTime)
 						room->SetMeshVisibility(true);
 					}
 				}
+				NumOfMainRoom = MainRoomList.Num();
 				// After marking all main room, create graph
 				GenStepEnum = EGenStepEnum::GSE_GRAPHING_ROOMS;
 				myGraph = new MyGraph(MainRoomList, GetWorld());
@@ -98,9 +99,13 @@ void AMapGeneartor::Tick(float DeltaTime)
 	}
 	if (GenStepEnum == EGenStepEnum::GSE_GRAPHING_ROOMS) {
 		bool bAllFinished = false;
+		static int16 nextRoomId = 0;
+
+
 
 		if (myGraph) {
 			myGraph->DebugDrawAllFace();
+			myGraph->DebugDrawAllVertex();
 		}
 
 		if (bAllFinished) {

@@ -59,6 +59,10 @@ void MyGraph::BuildBoundaryTriangle() {
 	F* superTriangle = new F(L, T, R);
 	faces.AddUnique(superTriangle);
 }
+void MyGraph::TrianglateVertex(int16 vertexID) {
+	V* v = vertexs[vertexID];
+
+}
 
 void MyGraph::DebugDrawAllFace() {
 
@@ -66,3 +70,10 @@ void MyGraph::DebugDrawAllFace() {
 		face->DebugDrawFace(Context);
 	}
 }
+
+void MyGraph::DebugDrawAllVertex() {
+	for (auto& vertex : vertexs) {
+		vertex->DebugDrawVertex(Context);
+	}
+}
+

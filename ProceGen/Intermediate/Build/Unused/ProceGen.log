@@ -1,15 +1,15 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\u1218984\Documents\GitHub\ProcedualGenerator).
-  Creating makefile for ProceGenEditor (ini files are newer than makefile)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\ProcedualGenerator).
   Parsing headers for ProceGenEditor
-    Running UnrealHeaderTool "C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\ProceGen.uproject" "C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\ProceGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ProceGenEditor in 4.649482 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] E.cpp
-    [2/4] UE4Editor-ProceGen-0019.lib
-       Creating library C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0019.lib and object C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0019.exp
-    [3/4] UE4Editor-ProceGen-0019.dll
-       Creating library C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0019.suppressed.lib and object C:\Users\u1218984\Documents\GitHub\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0019.suppressed.exp
-    [4/4] ProceGenEditor.target
-  Total time in Parallel executor: 1.12 seconds
-  Total execution time: 7.32 seconds
+    Running UnrealHeaderTool "D:\Unreal Projects\ProcedualGenerator\ProceGen\ProceGen.uproject" "D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\ProceGenEditor\Development\ProceGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ProceGenEditor in 5.3801701 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 12 processes...
+    [1/5] V.cpp
+    [2/5] F.cpp
+    [3/5] UE4Editor-ProceGen-0003.lib
+       Creating library D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0003.lib and object D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0003.exp
+    [4/5] UE4Editor-ProceGen-0003.dll
+       Creating library D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0003.suppressed.lib and object D:\Unreal Projects\ProcedualGenerator\ProceGen\Intermediate\Build\Win64\UE4Editor\Development\ProceGen\UE4Editor-ProceGen-0003.suppressed.exp
+    [5/5] ProceGenEditor.target
+  Total time in Parallel executor: 2.51 seconds
+  Total execution time: 8.66 seconds
